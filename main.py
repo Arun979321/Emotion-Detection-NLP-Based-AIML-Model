@@ -1,10 +1,14 @@
 import streamlit as st
 import subprocess
-import streamlit as st
 
+# Ensure joblib is installed
+subprocess.run(["pip", "install", "joblib"])
+
+import joblib  # ✅ Import after ensuring it's installed
+
+# Optional: show installed packages (for debugging)
 installed = subprocess.getoutput("pip list")
 st.text(installed)
-
 
 # Load trained model and tools
 model = joblib.load('emotion_model.pkl')
