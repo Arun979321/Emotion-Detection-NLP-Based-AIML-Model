@@ -1,5 +1,3 @@
-import subprocess
-subprocess.run(["pip", "install", "joblib"])
 import streamlit as st
 import joblib
 import subprocess
