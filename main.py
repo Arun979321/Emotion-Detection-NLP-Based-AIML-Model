@@ -1,5 +1,4 @@
-import streamlit as st
-from sklearn.externals import joblib
+import streamlit as stimport joblib
 import subprocess
 import streamlit as st
 
