@@ -1,13 +1,5 @@
 streamlit
 joblib
-
-How to run your Streamlit app:
-
-1. Open your terminal (Command Prompt, PowerShell, or VS Code terminal).
-
-2. Navigate to your project folder (if not already there):
-
-   cd "C:\Projects\Emotion Detector pro(notebook nlp trained model && vs code main.py)"
-
-3. Run this command:
-   streamlit run main.py
+scikit-learn
+pandas
+numpy
